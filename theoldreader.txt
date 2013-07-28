@@ -1,0 +1,21 @@
+login
+curl -d "client=YourAppName&accountType=HOSTED_OR_GOOGLE&service=reader&Email=qr2434061@gmail.com&Passwd=theoldreader789456&output=json" https://theoldreader.com/accounts/ClientLogin
+
+
+get current status
+curl https://theoldreader.com/reader/api/0/status?output=json
+
+get user info
+curl https://theoldreader.com/reader/api/0/user-info?output=json -H "Authorization: GoogleLogin auth=SABqP5SAj6yDVSDnMHoH"
+
+get unread count
+curl https://theoldreader.com/reader/api/0/unread-count?output=json -H "Authorization: GoogleLogin auth=SABqP5SAj6yDVSDnMHoH"
+
+
+get read item ids
+https://theoldreader.com/reader/api/0/stream/items/ids?s=user/-/state/com.google/reading-list&output=json
+
+get unread item id
+https://theoldreader.com/reader/api/0/stream/items/ids?output=json&s=user/-/state/com.google/reading-list&xt=user/-/state/com.google/read
+
+有问题可以参考～/code/wpAppOfTOR/TheOldReaderWP这个项目。这个项目调用了the old reader的api
