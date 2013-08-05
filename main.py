@@ -1,14 +1,12 @@
 __metaclass__=type
 import rss
 
+
+rss = TheoldreaderRss()
 account = "qr2434061"
 password = "theoldreader789456"
-rss = RSS(account,password)
-rss.login()
-unreadCount =rss.getUnreadCount()
-ids = rss.getUnreadItems(unreadCount)
+if rss.login(account password) == False:
+	print 
 
-unreadCountGot = len(ids)
-for i in ids:
-	author,title,content,href,timestampUsec = rss.getUnreadContent(ids[i])
-	
+rss.getAllUnreadContentFromWeb()
+

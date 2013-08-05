@@ -1,0 +1,3 @@
+2013-8-5 22:59
+finished log.py
+ready for test main.py and database
