@@ -1,3 +1,7 @@
-2013-8-5 22:59
+2013-8-5 23:59
 finished log.py
 ready for test main.py and database
+
+2013-8-6 23:50
+tomorrow:
+finish socketServer.py

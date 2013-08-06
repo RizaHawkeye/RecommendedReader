@@ -1,20 +1,20 @@
 __metaclass__=type
 import json,httplib
 import database
-import source
+from source import Source
 
-class TheoldreaderRss(source.Source):
+class TheoldreaderRss(Source):
 		#private or public?  __account is private? have try
 
 	def __init__(self):
-		source.Source.__init__()
+		Source.__init__(self)
 		self.__host = "theoldreader.com"
 		#need init self.auth?	
 
 		#conn = httplib.HTTPSConnection()  
-		self.__conn = httplib.HTTPSConnection(self.host,80)
+		self.__conn = httplib.HTTPSConnection(self.__host,80)
 
-		self.__db = Database()
+		self.__db = database.Database()
 
 	def login(self,account,password):
 		self.__conn.connect()
@@ -75,7 +75,7 @@ class TheoldreaderRss(source.Source):
 
 		sql = "insert into Articals values(\'" + id +  "\',\'" + author + "\',\'" + title + "\'," + content + ",\'" + href + "\',\'" + timestampUsec + "\')"
 		
-		slef.__db.executeWithoutQuery(sql)
+		self.__db.executeWithoutQuery(sql)
 
 	def getAllUnreadContentFromWeb(self):
 		unreadCount = getUnreadCount()

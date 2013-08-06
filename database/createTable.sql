@@ -3,12 +3,18 @@ create table Websites
 	name varchar(20) not null primary key
 );
 
-create table Accounts
+create table MainAccounts
+(
+	account varchar(20) not null primary key,
+	password varchar(20) not null
+);
+
+create table ProxyAccounts
 (
 	account varchar(20) not null,
 	password varchar(20) not null,
 	website varchar(20) not null,
-	primary key(account，website),
+	primary key(account,website),
 	foreign key(website) references Websites(name)
 );
 
