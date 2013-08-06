@@ -72,7 +72,7 @@ class TheoldreaderRss(Source):
 		author = result["items"][0]["author"]
 		timestampUsec = result["items"][0]["timestampUsec"]
 
-		sql = "insert into Articals values(\'" + id +  "\',\'"author + "\',\'" + title + "\'," + content + ",\'" + href + "\',\'" + timestampUsec + "\')"
+		sql = "insert into Articals values(\'" + id +  "\',\' + author + "\',\'" + title + "\'," + content + ",\'" + href + "\',\'" + timestampUsec + "\')"
 		
 		__db.executeWithoutQuery(sql)
 
