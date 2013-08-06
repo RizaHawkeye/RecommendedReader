@@ -33,5 +33,5 @@ create table Articals
 	score int,
 	primary key (id),
 	foreign key(status) references Status(status),
-	check (score >= 10 and score <=5)
+	check (score > 1 and score <=5)
 );
