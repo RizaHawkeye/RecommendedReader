@@ -32,12 +32,15 @@ create table Articals
 	id varchar(50) not null,
 	author varchar(50) ,
 	title varchar(50) not null,
+	website varchar(20) not null,
 	content text not null,
 	href varchar(150) not null,
 	timestampUsec varchar(20) not null,
 	status varchar(10) not null default "UNREAD",
-	score int,
+	weight int,
+	score int, 
 	primary key (id),
 	foreign key(status) references Status(status),
+	foreign key(website) references Websites(name),
 	check (score > 1 and score <=5)
 );

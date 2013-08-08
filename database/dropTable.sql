@@ -1,5 +1,5 @@
-drop table MainAccounts;
-drop table ProxyAccounts;
-drop table Websites;
-drop table Articals;
-drop table Status;
+drop table MainAccounts cascade;
+drop table ProxyAccounts cascade;
+drop table Websites cascade;
+drop table Articals cascade;
+drop table Status cascade;

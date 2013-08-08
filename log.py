@@ -13,7 +13,7 @@ log.error("error")
 log.critical("critical")
 '''
 class Log:
-	def __init__(self,filename):
+	def __init__(self,filename="Log.log"):
 		formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
 		self.__logger = logging.getLogger("mylog")
