@@ -1,0 +1,2 @@
+2013-08-10 20:21:36,091 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-10 20:41:13,473 - mylog - ERROR - 'str' object has no attribute 'read'

@@ -10,18 +10,16 @@ class Source:
 		self.__password = None
 
 	def login(self,account,password):
-		return false
+		pass
 
 	def getUnreadCount(self):
-		return -1
+		pass
 
 	def getUnreadIds(self,count):
-		ret = []
-		return ret
-	
+		pass
+
 	def getUnreadContent(self,id):
-		ret = []
-		return ret 
+		pass
 
 	def close(self):
 		pass

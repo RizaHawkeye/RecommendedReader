@@ -39,10 +39,12 @@ class SendInfoThread(threading.Thread):
 		begin = (order - 1) * ITEM_NUMBER_RETURN + 1
 		end = order * ITEM_NUMBER_RETURN
 		#limit count from 1 not 0
-		sql = "select * from reader limit " + begin + "," + end+ " where timestampUsec > \'" +  beginTime + "\' order by weight"
+		#sql = "select * from reader limit " + begin + "," + end+ " where timestampUsec > \'" +  beginTime + "\' order by weight"
+
+		sql = "select * from reader limit %d,%d order by weight" % (begin,end)
+
 #		if method == "NEW":
 #			earliestTime = clientJsonObj["earliestTime"]
-#			#TODO:sort
 #
 #		elif flag == "MORE"
 #			earliestTime = clientJsonObj["earliestTime"]
@@ -52,11 +54,19 @@ class SendInfoThread(threading.Thread):
 		cursor = db.query(sql)
 		rowcount = cursor.rowcount
 		result = cursor.fetchall()
-
+		
+		alldata = ""
 		for row in result:
 			#TODO:
+			item = '''["id":"%s","author":"%s","title":"%s","website":"%s","content":"%s","href":"%s","timestampUsec":"%s"]\n''' % (row["id"],row["author"],row["title"],row["website"],row["content"],row["href"],row["timestampUsec"])
+			
+			alldata.append(item)
 
+		#convert string to json
+		info = json.dumps(alldata)
+		
 		db.close()
+		return info
 
 def startSocketServer():
 	port = 1989
@@ -83,3 +93,5 @@ def startSocketServer():
 		t = SendInfoThread(queue)
 		t.Daemon = True
 		t.start()
+
+
