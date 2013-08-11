@@ -3,6 +3,10 @@ create table Websites
 	name varchar(20) not null primary key
 );
 
+insert into Websites values("THEOLDREADER");
+insert into Websites values("DOUBAN");
+insert into Websites values("ZHIHU");
+
 create table MainAccounts
 (
 	account varchar(20) not null primary key,
@@ -37,10 +41,10 @@ create table Articals
 	href varchar(150) not null,
 	timestampUsec varchar(20) not null,
 	status varchar(10) not null default "UNREAD",
-	weight int,
-	score int, 
+	weight float not null default 3.0,
+	score int not null default 3, 
 	primary key (id),
 	foreign key(status) references Status(status),
 	foreign key(website) references Websites(name),
-	check (score > 1 and score <=5)
+	check (score >= 1 and score <=5)
 );

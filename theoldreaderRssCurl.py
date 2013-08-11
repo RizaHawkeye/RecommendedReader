@@ -4,7 +4,6 @@ import database
 import source
 import log
 from log import Log
-import os
 
 class TheoldreaderRss(source.Source):
 		#private or public?  __account is private? have try
@@ -12,12 +11,11 @@ class TheoldreaderRss(source.Source):
 	def __init__(self):
 		source.Source.__init__(self)
 		self.__host = "theoldreader.com"
-		#need init self.__auth?	
+		#need init self.auth?	
 
 		#conn = httplib.HTTPSConnection()  
 		#TODO : i have to change https to http because https can't connect to the server
-		#self.__conn = httplib.HTTPSConnection(self.__host,80)
-		self.__conn = httplib.HTTPConnection(self.__host,80)
+		self.__conn = httplib.HTTPSConnection(self.__host,80)
 
 		self.__db = database.Database()
 
@@ -33,14 +31,14 @@ class TheoldreaderRss(source.Source):
 		response = self.__conn.getresponse()
 		msg = response.read()	
 		try:
-			result = json.loads(msg)
+			result = json.load(msg)
 		except Exception,e:
 			#TODO:toast account or passrowd error
 			log = Log()
 			log.error(str(e))
 			return False
 
-		self.__auth = result["Auth"]
+		self.auth = result["Auth"]
 		
 		if self is not None:
 			website = "theoldreader"
@@ -52,54 +50,23 @@ class TheoldreaderRss(source.Source):
 			#TODO:add log
 			return False
 	
-	def loginWithCurl(self,account,password):
-		#self.__conn.connect()
-		self.__account = account
-		self.__password = password
-
-		curlCmd = '''curl -d "client=YourAppName&accountType=HOSTED_OR_GOOGLE&service=reader&Email=%s&Passwd=%s&output=json" https://theoldreader.com/accounts/ClientLogin''' % (self.__account,self.__password)
-
-		msg = os.popen(curlCmd)
-
-		try:
-			result = json.loads(msg)
-		except Exception,e:
-			#TODO:toast account or passrowd error
-			log = Log()
-			log.error(str(e))
-			return False
-
-		self.__auth = result["Auth"]
-		
-		if self is not None:
-			website = "theoldreader"
-			insertProxy = '''insert into ProxyAccounts values("%s","%s","%s") ''' % (account,password,website)
-			self.__db.executeWithoutQuery(insertProxy)
-			return True
-		else:
-			Log.warn(str(result))
-			#TODO:add log,tell user maybe acc or passwd error
-			return False
-	
-
 	def getUnreadCount(self):
 		url = "/reader/api/0/unread-count?output=json"
-		headers = {"Authorization":"GoogleLogin auth=%s" % self.__auth}
+		headers = "Authorization: GoogleLogin auth=" + self.auth
 		self.__conn.request(method='GET',url=url,headers=headers)
-		
-		msg = self.__conn.getresponse().read()
-		result = json.loads(msg)
+
+		result = json.load(conn.getresponse().read)
 		return result["max"]
 	
 
 	def getUnreadIds(self,count):
 		#TODO:could string plus int in python?
 		ulr = "/reader/api/0/stream/items/ids?output=json&s=user/-/state/com.google/reading-list&xt=user/-/state/com.google/read" + "n=" + count
-		headers = {"Authorization":"GoogleLogin auth=%s" % self.__auth}
+		headers = "Authorization: GoogleLogin auth=" + self.auth
 		self.__conn.request(method='GET',url=url,headers=headers)
 
 		ids = []
-		result = json.loads(conn.getresponse().read)
+		result = json.load(conn.getresponse().read)
 		unReadcount = len(result["itemRefs"])
 		for i in range(0,unReadcount):
 			ids.append(result["itemRefs"][i]["id"])
@@ -108,10 +75,10 @@ class TheoldreaderRss(source.Source):
 	
 	def getUnreadContent(self,id):
 		url = "/reader/api/0/stream/items/contents?output=json&i=" + id
-		headers = {"Authorization":"GoogleLogin auth=%s" % self.__auth}
+		headers = "Authorization: GoogleLogin auth=" + self.auth
 		self.__conn.request(method='GET',url=url,headers=headers)
 		
-		result = json.loads(conn.getresponse().read)
+		result = json.load(conn.getresponse().read)
 		
 		#title = result["title"]
 		title = result["items"][0]["title"]
@@ -120,14 +87,12 @@ class TheoldreaderRss(source.Source):
 		author = result["items"][0]["author"]
 		timestampUsec = result["items"][0]["timestampUsec"]
 
-		#sql = "insert into Articals values(\'" + id +  "\',\'" + author + "\',\'" + title + "\'," + content + ",\'" + href + "\',\'" + timestampUsec + "\')"
-
-		sql = '''insert into Articals values("%s","%s","%s","%s","%s","%s")''' % (id,author,title,content,href,timestampUsec)
+		sql = "insert into Articals values(\'" + id +  "\',\'" + author + "\',\'" + title + "\'," + content + ",\'" + href + "\',\'" + timestampUsec + "\')"
 		
 		slef.__db.executeWithoutQuery(sql)
 
 	def getAllUnreadContentFromWeb(self):
-		unreadCount = self.getUnreadCount()
+		unreadCount = getUnreadCount()
 		ids = getUnreadIds(unreadCount)
 
 		unreadCountGot = len(ids)

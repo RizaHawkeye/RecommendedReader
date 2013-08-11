@@ -1,2 +1,12 @@
 2013-08-10 20:21:36,091 - mylog - ERROR - 'str' object has no attribute 'read'
 2013-08-10 20:41:13,473 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-11 19:25:52,119 - mylog - ERROR - (1062, "Duplicate entry 'qr-THEOLDREADER' for key 'PRIMARY'")
+2013-08-11 19:54:54,238 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:06:03,862 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:14:20,782 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:15:13,296 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:15:53,304 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:16:40,927 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:17:36,655 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:21:25,014 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-11 20:48:10,173 - mylog - ERROR - expected string or buffer
