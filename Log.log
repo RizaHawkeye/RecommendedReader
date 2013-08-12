@@ -10,3 +10,37 @@
 2013-08-11 20:17:36,655 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
 2013-08-11 20:21:25,014 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
 2013-08-11 20:48:10,173 - mylog - ERROR - expected string or buffer
+2013-08-12 21:00:32,418 - mylog - ERROR - expected string or buffer
+2013-08-12 21:14:22,637 - mylog - ERROR - Module: theoldreaderRss    Function: loginWithCurl
+expected string or buffer
+2013-08-12 21:16:15,164 - mylog - ERROR - Module: theoldreaderRss    Function: loginWithCurl
+expected string or buffer
+2013-08-12 21:18:33,571 - mylog - ERROR - Module: theoldreaderRss    Function: loginWithCurl
+
+2013-08-12 21:18:33,571 - mylog - ERROR - Module: theoldreaderRss    Function: loginWithCurl
+
+2013-08-12 21:26:20,702 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 21:26:57,080 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 21:26:57,082 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:26:57,082 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:27:56,095 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 21:27:56,096 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:27:56,096 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:38:21,040 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 21:38:21,041 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:38:21,041 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:39:11,381 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 21:39:11,382 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:39:11,382 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:39:48,696 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 21:39:48,697 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:39:48,697 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 21:59:08,497 - mylog - ERROR - Module: theoldreaderRss    Function: __init__
+local variable 'e' referenced before assignment
+2013-08-12 23:34:01,032 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 23:34:01,033 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 23:34:01,033 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 23:42:18,310 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and password = theoldreader789456' at line 1")
+2013-08-12 23:43:36,883 - mylog - ERROR - (1146, "Table 'reader.ProxyAccount' doesn't exist")
+2013-08-12 23:43:36,884 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")
+2013-08-12 23:43:36,884 - mylog - ERROR - (1062, "Duplicate entry 'qr2434061@gmail.com-theoldreader' for key 'PRIMARY'")

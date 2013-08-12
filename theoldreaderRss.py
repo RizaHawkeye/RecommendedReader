@@ -21,6 +21,9 @@ class TheoldreaderRss(source.Source):
 
 		self.__db = database.Database()
 
+		self.__errmsg = "Module: %s    Function: %s\n"
+	
+	
 	def login(self,account,password):
 		self.__conn.connect()
 		self.__account = account
@@ -59,25 +62,36 @@ class TheoldreaderRss(source.Source):
 
 		curlCmd = '''curl -d "client=YourAppName&accountType=HOSTED_OR_GOOGLE&service=reader&Email=%s&Passwd=%s&output=json" https://theoldreader.com/accounts/ClientLogin''' % (self.__account,self.__password)
 
-		msg = os.popen(curlCmd)
+		msg = os.popen(curlCmd).read()
 
 		try:
 			result = json.loads(msg)
+			
 		except Exception,e:
 			#TODO:toast account or passrowd error
 			log = Log()
-			log.error(str(e))
+
+			errmsg = self.__errmsg % (__name__,"loginWithCurl")
+			errmsg = errmsg + str(e)
+			log.error(errmsg)
 			return False
 
 		self.__auth = result["Auth"]
 		
 		if self is not None:
 			website = "theoldreader"
-			insertProxy = '''insert into ProxyAccounts values("%s","%s","%s") ''' % (account,password,website)
-			self.__db.executeWithoutQuery(insertProxy)
+			querysql = "select * from ProxyAccounts where account='%s'" % self.__account
+
+			res = self.__db.query(querysql)
+			if res is None:
+				insertProxy = '''insert into ProxyAccounts values("%s","%s","%s") ''' % (account,password,website)
+				self.__db.executeWithoutQuery(insertProxy)
+
 			return True
 		else:
-			Log.warn(str(result))
+			errmsg = self.__errmsg % (__name__,"loginWithCurl")
+			errmsg = errmsg + str(e)
+			Log.warn(errmsg)
 			#TODO:add log,tell user maybe acc or passwd error
 			return False
 	
@@ -93,13 +107,22 @@ class TheoldreaderRss(source.Source):
 	
 
 	def getUnreadIds(self,count):
-		#TODO:could string plus int in python?
-		ulr = "/reader/api/0/stream/items/ids?output=json&s=user/-/state/com.google/reading-list&xt=user/-/state/com.google/read" + "n=" + count
+		#TODO:only get 10 items
+		url = "/reader/api/0/stream/items/ids?output=json&s=user/-/state/com.google/reading-list&xt=user/-/state/com.google/read" + "&n=10" 
+		#url = "/reader/api/0/stream/items/ids?output=json&s=user/-/state/com.google/reading-list&xt=user/-/state/com.google/read" + "&n=" + str(count)
 		headers = {"Authorization":"GoogleLogin auth=%s" % self.__auth}
 		self.__conn.request(method='GET',url=url,headers=headers)
 
 		ids = []
-		result = json.loads(conn.getresponse().read)
+		jsonmsg = self.__conn.getresponse().read()
+		try:
+			result = json.loads(jsonmsg)
+		except Exception,e:
+			log = Log()
+			errmsg = self.__errmsg % (__name__,"getUnreadIds")
+			errmsg = errmsg + str(e)
+			log.error(errmsg)
+			
 		unReadcount = len(result["itemRefs"])
 		for i in range(0,unReadcount):
 			ids.append(result["itemRefs"][i]["id"])
@@ -111,7 +134,8 @@ class TheoldreaderRss(source.Source):
 		headers = {"Authorization":"GoogleLogin auth=%s" % self.__auth}
 		self.__conn.request(method='GET',url=url,headers=headers)
 		
-		result = json.loads(conn.getresponse().read)
+		jsonmsg = self.__conn.getresponse().read()
+		result = json.loads(jsonmsg)
 		
 		#title = result["title"]
 		title = result["items"][0]["title"]
@@ -128,11 +152,11 @@ class TheoldreaderRss(source.Source):
 
 	def getAllUnreadContentFromWeb(self):
 		unreadCount = self.getUnreadCount()
-		ids = getUnreadIds(unreadCount)
+		ids = self.getUnreadIds(unreadCount)
 
 		unreadCountGot = len(ids)
 		for id in ids:
-			getUnreadContent(i)
+			self.getUnreadContent(id)
 
 
 	def close(self):

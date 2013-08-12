@@ -27,7 +27,7 @@ class Database:
 			cursor = self.__conn.cursor(mdb.cursors.DictCursor)
 			cursor.execute(sql)
 			result = cursor.fetchall()
-			self.__conn.commit()
+
 			return result
 		except mdb.Error,e:
 			log = Log()
