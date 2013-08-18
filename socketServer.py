@@ -1,9 +1,13 @@
+#------------------------------------
+#json.dumps() changes duild-in data structure to string
+#json.loads() changes string to build-in data struct
+#------------------------------------
 __metaclass__=type
 import socket
 import threading
-import log
 import Queue
 import json
+from log import Log
 
 ITEM_NUMBER_RETURN = 20
 class SendInfoThread(threading.Thread):
@@ -14,7 +18,10 @@ class SendInfoThread(threading.Thread):
 	def run(self):
 		try:
 			socket = self.queue.get()
-			buf =scoket.recv()
+			recvBuf = 1024*1024
+			buf =scoket.recv(recvBuf)
+			if __name__ == '__main__':
+				print "waiting for recv"
 
 			info = process(buf)
 
@@ -55,10 +62,19 @@ class SendInfoThread(threading.Thread):
 		rowcount = cursor.rowcount
 		result = cursor.fetchall()
 		
-		alldata = ""
+		#alldata = ""
+		alldata = [] 
 		for row in result:
 			#TODO:
-			item = '''["id":"%s","author":"%s","title":"%s","website":"%s","content":"%s","href":"%s","timestampUsec":"%s"]\n''' % (row["id"],row["author"],row["title"],row["website"],row["content"],row["href"],row["timestampUsec"])
+			#item = '''["id":"%s","author":"%s","title":"%s","website":"%s","content":"%s","href":"%s","timestampUsec":"%s"]\n''' % (row["id"],row["author"],row["title"],row["website"],row["content"],row["href"],row["timestampUsec"])
+			item = {}
+			item["id"] = row["id"]
+			item["author"] = row["author"]
+			item["title"] = row["title"]
+			item["website"] = row["website"]
+			item["content"] = row["content"]
+			item["href"] = row["href"]
+			item["timestampUsec"] = row["timestampUsec"]
 			
 			alldata.append(item)
 
@@ -71,11 +87,11 @@ class SendInfoThread(threading.Thread):
 def startSocketServer():
 	port = 1989
 	buffer_size = 4098
-	log = log.Log()
+	log = Log()
 	sockQueue = Queue.Queue()
 	try:
 		sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-		sock.bind('localhost',port)
+		sock.bind(('localhost',port))
 		sock.listen(0)
 	except socket.error, e:
 		log.error(str(e))
@@ -90,8 +106,11 @@ def startSocketServer():
 			log.err(str(e))
 
 		sockQueue.put(sockAccept)
-		t = SendInfoThread(queue)
+		t = SendInfoThread(sockQueue)
 		t.Daemon = True
 		t.start()
 
 
+if __name__ == '__main__':
+	startSocketServer()
+	

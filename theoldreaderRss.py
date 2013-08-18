@@ -135,20 +135,32 @@ class TheoldreaderRss(source.Source):
 		self.__conn.request(method='GET',url=url,headers=headers)
 		
 		jsonmsg = self.__conn.getresponse().read()
-		result = json.loads(jsonmsg)
-		
+		try:
+			result = json.loads(jsonmsg)
+		except Exception,e:
+			log = Log()
+			errmsg = self.__errmsg % (__name__,"getUnreadIds")
+			errmsg = errmsg + str(e)
+			log.error(errmsg)
+			
 		#title = result["title"]
 		title = result["items"][0]["title"]
-		content = result["items"][0]["content"]
+		content = result["items"][0]["summary"]["content"]
 		href = result["items"][0]["canonical"][0]["href"]
 		author = result["items"][0]["author"]
 		timestampUsec = result["items"][0]["timestampUsec"]
+		website = "THEOLDREADER"
 
-		#sql = "insert into Articals values(\'" + id +  "\',\'" + author + "\',\'" + title + "\'," + content + ",\'" + href + "\',\'" + timestampUsec + "\')"
+		title.replace("'","''")
+		content.replace("'","''")
+		href.replace("'","''")
+		author.replace("'","''")
+		timestampUsec.replace("'","''")
 
-		sql = '''insert into Articals values("%s","%s","%s","%s","%s","%s")''' % (id,author,title,content,href,timestampUsec)
+
+		sql = '''insert into Articals(id,author,title,website,content,href,timestampUsec) values('%s','%s','%s','%s','%s','%s','%s')''' % (id,author,title,website,content,href,timestampUsec)
 		
-		slef.__db.executeWithoutQuery(sql)
+		self.__db.executeWithoutQuery(sql)
 
 	def getAllUnreadContentFromWeb(self):
 		unreadCount = self.getUnreadCount()

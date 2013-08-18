@@ -17,6 +17,22 @@ test other methods in theoldreaderRss.py
 should do:
 test insert articals in database
 
+2013-8-13 23:59
+should do:
+mysql can't start 
+current character set of database is latin and can't insert chinese
+can use testInsert.py to test the insert function
+
+2013-8-17 21:54
+done:
+test database. mysql can insert utf8 now
+should do:
+test other function
+
+2013-8-18 17:00
+shoule do:
+run testSocket.py to test socket
+
 problems:
 2013-8-11 can't login using theoldreader api. i have to use curl to get the token
 2013-8-11 it is must that execute commit() after execute() in database.py. but some people say it's not necessary

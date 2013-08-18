@@ -38,7 +38,7 @@ create table Articals
 	title varchar(50) not null,
 	website varchar(20) not null,
 	content text not null,
-	href varchar(150) not null,
+	href varchar(500) not null,
 	timestampUsec varchar(20) not null,
 	status varchar(10) not null default "UNREAD",
 	weight float not null default 3.0,
@@ -48,3 +48,4 @@ create table Articals
 	foreign key(website) references Websites(name),
 	check (score >= 1 and score <=5)
 );
+

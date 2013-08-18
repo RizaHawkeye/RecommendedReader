@@ -6,14 +6,21 @@ from log import Log
 class Database:
 	def __init__(self):
 		try:
-			self.__conn = mdb.connect("localhost","root","root","reader")
+			self.__conn = mdb.connect(host="localhost",user="root",passwd="root",db="reader",charset="utf8")
 		except mdb.Error,e:
 			log = Log()
 			log.error(str(e))
+
+	def __setCharset(self,cursor):
+		cursor.execute("SET NAMES utf8")
+		cursor.execute("SET CHARACTER_SET_CLIENT=utf8")
+		cursor.execute("SET CHARACTER_SET_RESULTS=utf8")
+		self.__conn.commit()
 	
 	def executeWithoutQuery(self,sql):
 		try:
 			cursor = self.__conn.cursor()
+			self.__setCharset(cursor)
 			cursor.execute(sql)
 			self.__conn.commit()
 		except mdb.Error,e:
@@ -25,6 +32,7 @@ class Database:
 	def query(self,sql):
 		try:
 			cursor = self.__conn.cursor(mdb.cursors.DictCursor)
+			self.__setCharset(cursor)
 			cursor.execute(sql)
 			result = cursor.fetchall()
 
