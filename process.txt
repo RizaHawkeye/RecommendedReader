@@ -33,6 +33,13 @@ test other function
 shoule do:
 run testSocket.py to test socket
 
+2013-8-21 00:26
+done:
+add traceback.format_exc()
+should do:
+run testSocket.py to test socket
+
+
 problems:
 2013-8-11 can't login using theoldreader api. i have to use curl to get the token
 2013-8-11 it is must that execute commit() after execute() in database.py. but some people say it's not necessary

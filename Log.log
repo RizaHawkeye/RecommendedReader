@@ -55,3 +55,136 @@ local variable 'e' referenced before assignment
 2013-08-18 10:46:42,861 - mylog - ERROR - (1062, "Duplicate entry '520dbc207c389cea0d002730' for key 'PRIMARY'")
 2013-08-18 10:46:42,861 - mylog - ERROR - (1062, "Duplicate entry '520dbc207c389cea0d002730' for key 'PRIMARY'")
 2013-08-18 10:46:42,861 - mylog - ERROR - (1062, "Duplicate entry '520dbc207c389cea0d002730' for key 'PRIMARY'")
+2013-08-20 22:14:57,375 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 22:37:55,823 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:37:55,823 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:39:21,980 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:39:21,980 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:41:31,499 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 22:42:22,543 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 22:43:51,028 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:43:51,028 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:44:28,972 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 22:50:19,221 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:50:19,221 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 22:58:51,379 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 22:59:16,833 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 23:01:04,391 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 23:23:20,808 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 23:23:20,808 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 23:27:40,154 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 23:28:01,947 - mylog - ERROR - [Errno 98] Address already in use
+2013-08-20 23:29:03,206 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 23:29:03,206 - mylog - ERROR - 'str' object has no attribute 'read'
+2013-08-20 23:33:32,269 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:33:32,269 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:34:17,004 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:34:17,004 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:34:36,790 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:34:36,790 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:36:23,050 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:36:23,050 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:42:15,728 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:42:15,728 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:43:06,192 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:43:06,192 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:44:18,296 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:44:18,296 - mylog - ERROR - unsupported operand type(s) for -: 'unicode' and 'int'
+2013-08-20 23:50:48,480 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 54, in process
+    begin = (order - 1) * ITEM_NUMBER_RETURN + 1
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+
+2013-08-20 23:50:48,480 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 54, in process
+    begin = (order - 1) * ITEM_NUMBER_RETURN + 1
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+
+2013-08-20 23:51:26,173 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 54, in process
+    begin = (order - 1) * ITEM_NUMBER_RETURN + 1
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+
+2013-08-20 23:51:26,173 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 54, in process
+    begin = (order - 1) * ITEM_NUMBER_RETURN + 1
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+
+2013-08-20 23:52:10,743 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-19,0 order by weight' at line 1")
+2013-08-20 23:52:10,743 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-19,0 order by weight' at line 1")
+2013-08-20 23:52:10,744 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 70, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-20 23:52:10,744 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 70, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-20 23:52:10,744 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 70, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:02:33,312 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-19,0 order by weight' at line 1")
+2013-08-21 00:02:33,312 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-19,0 order by weight' at line 1")
+2013-08-21 00:02:33,313 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:02:33,313 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:02:33,313 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:03:41,647 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by weight' at line 1")
+2013-08-21 00:03:41,647 - mylog - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by weight' at line 1")
+2013-08-21 00:03:41,648 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:03:41,648 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:03:41,648 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:22:59,199 - mylog - ERROR - (1146, "Table 'reader.reader' doesn't exist")
+2013-08-21 00:22:59,199 - mylog - ERROR - (1146, "Table 'reader.reader' doesn't exist")
+2013-08-21 00:22:59,200 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:22:59,200 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:22:59,200 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'NoneType' object has no attribute 'rowcount'
+
+2013-08-21 00:23:21,455 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'tuple' object has no attribute 'rowcount'
+
+2013-08-21 00:23:21,455 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 71, in process
+    rowcount = cursor.rowcount
+AttributeError: 'tuple' object has no attribute 'rowcount'
+
