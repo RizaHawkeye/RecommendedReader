@@ -2,6 +2,7 @@
 __mataclass__=type
 import MySQLdb as mdb
 from log import Log
+import traceback
 
 class Database:
 	def __init__(self):
@@ -9,7 +10,8 @@ class Database:
 			self.__conn = mdb.connect(host="localhost",user="root",passwd="root",db="reader",charset="utf8")
 		except mdb.Error,e:
 			log = Log()
-			log.error(str(e))
+			errmsg = traceback.format_exc()
+			log.error(errmsg)
 
 	def __setCharset(self,cursor):
 		cursor.execute("SET NAMES utf8")
@@ -25,7 +27,8 @@ class Database:
 			self.__conn.commit()
 		except mdb.Error,e:
 			log = Log()
-			log.error(str(e))
+			errmsg = traceback.format_exc()
+			log.error(errmsg)
 		finally:
 			cursor.close()
 	
@@ -39,14 +42,28 @@ class Database:
 			return result
 		except mdb.Error,e:
 			log = Log()
-			log.error(str(e))
+			errmsg = traceback.format_exc()
+			log.error(errmsg)
 		finally:
 			cursor.close()
 
 	def close(self):
 		try:
-			self.__conn.close()
+			if self.__conn:
+				self.__conn.close()
 		except mdb.Error,e:
 			log = Log()
-			log.error(str(e))
+			errmsg = traceback.format_exc()
+			log.error(errmsg)
+
+	def __del__(self):
+		try:
+			if self.__conn:
+				self.__conn.close()
+		except mdb.Error,e:
+			log = Log()
+			errmsg = traceback.format_exc()
+			log.error(errmsg)
+
+
 

@@ -39,6 +39,18 @@ add traceback.format_exc()
 should do:
 run testSocket.py to test socket
 
+2013-8-22 00:10
+done:
+socketServer.py can work
+shoule do:
+start ML part
+
+2013-8-24 21:37
+done: 
+add base class Server as the base class of SocketServer
+shoule do:
+test server.py
+start ml part
 
 problems:
 2013-8-11 can't login using theoldreader api. i have to use curl to get the token

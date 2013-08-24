@@ -5,6 +5,7 @@ import source
 import log
 from log import Log
 import os
+import traceback
 
 class TheoldreaderRss(source.Source):
 		#private or public?  __account is private? have try
@@ -39,8 +40,9 @@ class TheoldreaderRss(source.Source):
 			result = json.loads(msg)
 		except Exception,e:
 			#TODO:toast account or passrowd error
+			errmsg = traceback.format_exc()
 			log = Log()
-			log.error(str(e))
+			log.error(errmsg)
 			return False
 
 		self.__auth = result["Auth"]
@@ -51,7 +53,8 @@ class TheoldreaderRss(source.Source):
 			self.__db.executeWithoutQuery(sql)
 			return True
 		else:
-			Log.warn(str(result))
+			warnmsg = traceback.format_exc()
+			Log.warn(warnmsg)
 			#TODO:add log
 			return False
 	
@@ -71,8 +74,7 @@ class TheoldreaderRss(source.Source):
 			#TODO:toast account or passrowd error
 			log = Log()
 
-			errmsg = self.__errmsg % (__name__,"loginWithCurl")
-			errmsg = errmsg + str(e)
+			errmsg = traceback.format_exc()
 			log.error(errmsg)
 			return False
 
@@ -82,15 +84,19 @@ class TheoldreaderRss(source.Source):
 			website = "theoldreader"
 			querysql = "select * from ProxyAccounts where account='%s'" % self.__account
 
-			res = self.__db.query(querysql)
-			if res is None:
-				insertProxy = '''insert into ProxyAccounts values("%s","%s","%s") ''' % (account,password,website)
-				self.__db.executeWithoutQuery(insertProxy)
+			try:
+				res = self.__db.query(querysql)
+				if res is None:
+					insertProxy = '''insert into ProxyAccounts values("%s","%s","%s") ''' % (account,password,website)
+					self.__db.executeWithoutQuery(insertProxy)
+			except:
+				log = Log()
+				errmsg = traceback.format_exc()
+				log.error(errmsg)
 
 			return True
 		else:
 			errmsg = self.__errmsg % (__name__,"loginWithCurl")
-			errmsg = errmsg + str(e)
 			Log.warn(errmsg)
 			#TODO:add log,tell user maybe acc or passwd error
 			return False
@@ -119,8 +125,7 @@ class TheoldreaderRss(source.Source):
 			result = json.loads(jsonmsg)
 		except Exception,e:
 			log = Log()
-			errmsg = self.__errmsg % (__name__,"getUnreadIds")
-			errmsg = errmsg + str(e)
+			errmsg = traceback.format_exc()
 			log.error(errmsg)
 			
 		unReadcount = len(result["itemRefs"])
@@ -139,8 +144,7 @@ class TheoldreaderRss(source.Source):
 			result = json.loads(jsonmsg)
 		except Exception,e:
 			log = Log()
-			errmsg = self.__errmsg % (__name__,"getUnreadIds")
-			errmsg = errmsg + str(e)
+			errmsg = traceback.format_exc()
 			log.error(errmsg)
 			
 		#title = result["title"]

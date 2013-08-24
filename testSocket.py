@@ -51,7 +51,7 @@ class RecvServerInfoThread(threading.Thread):
 				print "author---" + content["author"]
 				print "title---" + content["title"]
 				print "website---" + content["website"]
-				print "content---" + content["content"]
+				#print "content---" + content["content"]
 				print "href---" + content["href"]
 				print "timestampUsec---" + content["timestampUsec"]
 				print "-----------------------------"

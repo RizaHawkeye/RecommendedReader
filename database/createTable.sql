@@ -18,8 +18,10 @@ create table ProxyAccounts
 	account varchar(20) not null,
 	password varchar(20) not null,
 	website varchar(20) not null,
+	mainAccount varchar(20) not null,
 	primary key(account,website),
 	foreign key(website) references Websites(name)
+	foreign key(mainAccount) references MainAccounts(account)
 );
 
 create table Status
