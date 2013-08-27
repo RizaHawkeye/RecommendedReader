@@ -3,10 +3,39 @@ import json
 import threading
 import socketServer
 import time
-
-class ConnectServerThread(threading.Thread):
+class ConnectServerRegThread(threading.Thread):
 	def __init__(self):
-		super(ConnectServerThread,self).__init__()
+		super(ConnectServerRegThread,self).__init__()
+
+	def run(self):
+		port = 1989
+		try:
+			sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+			server_ip = socket.gethostbyname('localhost')
+
+			sock.connect((server_ip,port))
+
+			recvThread = RecvServerInfoThread(sock)
+			recvThread.Daemon = True
+			recvThread.start()
+
+			info={}
+			info["type"] = "REG"
+			info["account"] = "qr2434061@gmail.com"
+			info["passwd"] = "theoldreader789456"
+
+			data_to_server=json.dumps(info)
+			#print "data_to_server: " + data_to_server
+
+			sock.sendall(data_to_server)
+		except Exception,e:
+			print str(e)
+	
+
+
+class ConnectServerGetThread(threading.Thread):
+	def __init__(self):
+		super(ConnectServerGetThread,self).__init__()
 
 	def run(self):
 		port = 1989
@@ -24,8 +53,12 @@ class ConnectServerThread(threading.Thread):
 			order = "1"
 
 			info={}
+			info["type"] = "GET"
 			info["earliestTime"] = "1376665266000000"
 			info["order"] = order
+			info["account"] = "qr2434061@gmail.com"
+			info["passwd"] = "theoldreader789456"
+
 
 			data_to_server=json.dumps(info)
 			#print "data_to_server: " + data_to_server
@@ -74,6 +107,11 @@ if __name__ == '__main__':
 	
 	time.sleep(1)
 	
-	client = ConnectServerThread()
+	client = ConnectServerRegThread()
 	client.Daemon = True
 	client.start()
+
+	client = ConnectServerGetThread()
+	client.Daemon = True
+	client.start()
+

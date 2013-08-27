@@ -218,3 +218,2483 @@ AttributeError: 'tuple' object has no attribute 'fetchall'
     result = cursor.fetchall()
 AttributeError: 'tuple' object has no attribute 'fetchall'
 
+2013-08-25 17:14:11,063 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Server__getHeader' is not defined
+
+2013-08-25 17:14:11,064 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Server__getHeader' is not defined
+
+2013-08-25 17:14:11,063 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Server__getHeader' is not defined
+
+2013-08-25 17:14:11,063 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Server__getHeader' is not defined
+
+2013-08-25 17:14:11,064 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Server__getHeader' is not defined
+
+2013-08-25 17:14:11,064 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Server__getHeader' is not defined
+
+2013-08-25 17:28:31,238 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 114, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-25 17:31:15,040 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 61, in getDataToSend
+    db = db.Database()
+UnboundLocalError: local variable 'db' referenced before assignment
+
+2013-08-25 17:31:15,040 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 61, in getDataToSend
+    db = db.Database()
+UnboundLocalError: local variable 'db' referenced before assignment
+
+2013-08-25 17:31:15,044 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 61, in getDataToSend
+    db = db.Database()
+UnboundLocalError: local variable 'db' referenced before assignment
+
+2013-08-25 17:31:15,044 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 61, in getDataToSend
+    db = db.Database()
+UnboundLocalError: local variable 'db' referenced before assignment
+
+2013-08-25 17:31:15,044 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 61, in getDataToSend
+    db = db.Database()
+UnboundLocalError: local variable 'db' referenced before assignment
+
+2013-08-25 17:31:57,831 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 114, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-25 17:32:57,348 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:32:57,348 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:32:57,349 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,349 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,349 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,350 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:32:57,350 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:32:57,350 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:32:57,350 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:32:57,351 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,351 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,351 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,351 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:32:57,351 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,443 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,443 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,443 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,444 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,446 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,444 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,446 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,444 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,446 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,444 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = __getHeader(buf)
+NameError: global name '_Service__getHeader' is not defined
+
+2013-08-25 17:35:01,446 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,448 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,446 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,448 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,448 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,448 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:01,448 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:35:34,342 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 114, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-25 17:35:42,939 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 114, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-25 17:35:56,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 114, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,619 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,619 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,619 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,619 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,618 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 62, in getDataToSend
+    arg = self.__getHeader(buf)
+TypeError: __getHeader() takes exactly 1 argument (2 given)
+
+2013-08-25 17:36:16,621 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,621 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,621 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,621 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:36:16,621 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,415 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,415 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,415 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,415 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 63, in getDataToSend
+    actionType = arg[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-25 17:37:37,417 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,451 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:27:38,499 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,499 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,499 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,499 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,499 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,501 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,501 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,501 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,501 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:27:38,501 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:43:33,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:43:33,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:43:33,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:43:33,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:43:33,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 66, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:43:33,391 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,391 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,391 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,391 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,393 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,393 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,393 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,393 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:43:33,393 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,676 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,677 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,676 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,677 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,676 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,677 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,679 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,677 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:52:08,679 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,680 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,679 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,680 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,679 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,680 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,679 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,680 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:52:08,680 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,625 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:53:40,625 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:53:40,626 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:53:40,626 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:53:40,625 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:53:40,626 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:53:40,629 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,387 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:54:47,387 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:54:47,388 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,388 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,388 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:54:47,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:54:47,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:54:47,389 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 21:54:47,390 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,390 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,390 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,390 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 21:54:47,390 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,911 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:06:50,911 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:06:50,912 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,912 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,912 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:06:50,914 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,639 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:08:05,639 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:08:05,640 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:08:05,641 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,640 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:08:05,641 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,640 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:08:05,641 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,640 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 69, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:08:05,641 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,643 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,641 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,643 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,643 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,643 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:08:05,643 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,215 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    print "dir:" + dir(self)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+2013-08-27 22:10:38,215 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    print "dir:" + dir(self)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+2013-08-27 22:10:38,216 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,216 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,216 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,218 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    print "dir:" + dir(self)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+2013-08-27 22:10:38,218 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    print "dir:" + dir(self)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+2013-08-27 22:10:38,218 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    print "dir:" + dir(self)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+2013-08-27 22:10:38,218 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 67, in getDataToSend
+    print "dir:" + dir(self)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+2013-08-27 22:10:38,219 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,219 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,219 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,219 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:10:38,219 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:11:07,991 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 118, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-27 22:11:29,449 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 118, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-27 22:12:12,233 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 71, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:12:12,233 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 71, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:12:12,234 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,234 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,234 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,235 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 71, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:12:12,234 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,235 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 71, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:12:12,235 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 71, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:12:12,235 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 71, in getDataToSend
+    actionType = args[0]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+2013-08-27 22:12:12,237 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,237 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,237 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,237 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:12:12,237 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,848 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,848 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,848 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,849 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,849 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,849 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,849 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 67, in getHeader
+    clientJsonObj = json.loads(buf)
+NameError: global name 'json' is not defined
+
+2013-08-27 22:33:43,852 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,852 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,852 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,852 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,852 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,851 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,851 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,851 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,851 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,851 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,851 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 90, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,853 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:33:43,855 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,683 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:51:16,683 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:51:16,683 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = checkAccount(mainAccount,mainPasswd)
+NameError: global name 'checkAccount' is not defined
+
+2013-08-27 22:51:16,684 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:51:16,685 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,684 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:51:16,684 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:51:16,685 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,684 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:51:16,685 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,687 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,685 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,687 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,685 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,687 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,687 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:51:16,687 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:04,529 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-27 22:52:22,459 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:52:22,459 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:52:22,459 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:52:22,461 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:52:22,461 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:52:22,461 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:52:22,461 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return register(mainAccount,mainPasswd)
+NameError: global name 'register' is not defined
+
+2013-08-27 22:52:22,462 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,462 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,462 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,462 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,462 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:22,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:52:53,878 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-27 22:53:01,467 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-27 22:53:18,607 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-27 22:54:08,533 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:54:08,535 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:54:08,533 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:54:08,535 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:54:08,533 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:54:08,537 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,537 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,537 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,537 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,535 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:54:08,535 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:54:08,539 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,539 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,539 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,539 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:54:08,539 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,282 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:55:51,283 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:55:51,282 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:55:51,282 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = account.MainAccount(account,passwd)
+AttributeError: 'unicode' object has no attribute 'MainAccount'
+
+2013-08-27 22:55:51,283 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:55:51,283 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:55:51,283 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:55:51,285 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,918 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:56:29,918 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 86, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+UnboundLocalError: local variable 'mainAccount' referenced before assignment
+
+2013-08-27 22:56:29,919 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,919 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,919 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,943 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:56:29,943 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:56:29,943 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:56:29,943 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 143, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:56:29,944 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,944 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,944 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,944 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:56:29,944 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,650 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 91, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 48, in checkAccount
+    mainAcc = acc.MainAccount(mainAccount,mainPasswd)
+NameError: global name 'mainAccount' is not defined
+
+2013-08-27 22:58:27,650 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 91, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 48, in checkAccount
+    mainAcc = acc.MainAccount(mainAccount,mainPasswd)
+NameError: global name 'mainAccount' is not defined
+
+2013-08-27 22:58:27,650 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 91, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 48, in checkAccount
+    mainAcc = acc.MainAccount(mainAccount,mainPasswd)
+NameError: global name 'mainAccount' is not defined
+
+2013-08-27 22:58:27,652 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,652 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,652 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,652 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,651 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 148, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:58:27,651 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 148, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:58:27,651 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 148, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:58:27,651 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 76, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 148, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 22:58:27,654 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,654 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,654 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,654 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 22:58:27,654 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,508 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,508 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,508 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,506 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:01:36,510 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,508 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,510 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,510 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,508 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,510 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:01:36,510 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,003 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,003 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,003 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,003 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,002 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 112, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:03:55,005 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,005 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,005 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,005 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:03:55,005 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,243 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 116, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:05:16,243 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 116, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:05:16,244 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,244 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,244 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,244 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,245 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 116, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:05:16,245 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 116, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:05:16,245 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 116, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:05:16,245 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 116, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:05:16,247 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,247 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,247 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,247 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:05:16,247 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,708 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,707 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:11:54,710 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,708 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,708 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,710 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,710 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,710 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,710 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,708 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:11:54,708 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 51, in checkAccount
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,019 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,019 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,019 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,019 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,018 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 151, in register
+    mainAcc = acc.MainAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 119, in __init__
+    super(MainAccount).__init__(account,passwd)
+TypeError: must be type, not unicode
+
+2013-08-27 23:13:05,021 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,021 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,021 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,021 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:13:05,021 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 123, in verify
+    sql = "select * from MainAccounts where account = '%s' and password = '%s'" % (self.__account,self.__passwd)
+AttributeError: 'MainAccount' object has no attribute '_MainAccount__account'
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 123, in verify
+    sql = "select * from MainAccounts where account = '%s' and password = '%s'" % (self.__account,self.__passwd)
+AttributeError: 'MainAccount' object has no attribute '_MainAccount__account'
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 123, in verify
+    sql = "select * from MainAccounts where account = '%s' and password = '%s'" % (self.__account,self.__passwd)
+AttributeError: 'MainAccount' object has no attribute '_MainAccount__account'
+
+2013-08-27 23:20:20,434 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,434 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,434 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,434 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-27 23:20:20,432 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-27 23:20:20,436 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,436 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,436 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,436 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-27 23:20:20,436 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+

@@ -6,10 +6,14 @@ import threading
 import Queue
 import theoldreaderRss
 import server
+from log import Log
+import socket
+import traceback
+import json
 
 class socketServerSendThread(threading.Thread):
 	def __init__(self,sockQueue):
-		super(SendInfoThread,self).__init__()
+		super(socketServerSendThread,self).__init__()
 		self.queue = sockQueue
 
 	def run(self):
@@ -17,8 +21,10 @@ class socketServerSendThread(threading.Thread):
 			if __name__ == '__main__':
 				print "waiting for recv"
 			sock = self.queue.get()
-			buf = socketServer.recv(sock)
-			socketServer.send(sock,buf)
+
+			service = SocketService()
+			buf = service.recv(sock=sock)
+			service.send(sock=sock,buf=buf)
 
 			self.queue.task_done()
 		except socket.error, e:
@@ -28,16 +34,16 @@ class socketServerSendThread(threading.Thread):
 		finally:
 			sock.close()
 
-class socketServer(Server):
+class SocketService(server.Service):
 	def __init__(self):
-		super(socketServer).__init__()
+		super(SocketService,self).__init__()
 	
-	def __getHeaders(**param):
+	def getHeader(self,**param):
 		'''
 		call __getHeaders should like this:
 		__getHeaders(buf=xxx)
 
-		type:GET
+		type:GET   #get articals
 		earliestTime:xxx
 		order:XXX  (begin with 1)
 		account:xxx
@@ -46,9 +52,15 @@ class socketServer(Server):
 		type:REG    #register
 		account:xxx
 		passwd:xxx
+		OR
+		type:UPD   #add or update proxy account
+		mainAccount:xxx
+		website:xxx
+		proAccount:xxx
+		proPasswd:xxx
 		'''
 		info = "";
-
+		buf = param["buf"]
 		try:
 			clientJsonObj = json.loads(buf)
 			actionType = clientJsonObj["type"]
@@ -61,28 +73,39 @@ class socketServer(Server):
 			elif actionType == 'REG':
 				mainAccount = clientJsonObj["account"]
 				mainPasswd = clientJsonObj["passwd"]
-				return (actionType,None,None,mainAccount,mainPasswd)
+				return (actionType,mainAccount,mainPasswd)
+			elif actionType == 'UPD':
+				mainAccount = clientJsonObj["mainAccount"]
+				website = clientJsonObj["website"]
+				proAccount = clientJsonObj["proAccount"]
+				proPasswd = clientJsonObj["proPasswd"]
+				return (actionType,mainAccount,website,proAccount,proPasswd)
 		except:
 			#expand this error msg 
 			errmsg = traceback.format_exc()
 			log = Log()
 			log.error(errmsg)
+			return ("ERR",)
 	
-	def recv(**param):
+	def recv(self,**param):
 		'''param is sock=xxx'''
 		recvBuf = 1024*1024
-		buf =sock.recv(recvBuf)
+		sock = param["sock"]
+		buf = sock.recv(recvBuf)
 		return buf
 		
 	
 	#def send(self,sock,buf):
-	def send(**param):
+	def send(self,**param):
 		'''param is sock=xxx,buf=xxx'''
+		buf = param["buf"]
+		sock = param["sock"]
 		info = self.getDataToSend(buf)
 
 		sock.sendall(info)
 
 	
+class SocketServer(server.Server):
 	def startServer(self):
 		port = 1989
 		buffer_size = 4098

@@ -20,7 +20,7 @@ create table ProxyAccounts
 	website varchar(20) not null,
 	mainAccount varchar(20) not null,
 	primary key(account,website),
-	foreign key(website) references Websites(name)
+	foreign key(website) references Websites(name),
 	foreign key(mainAccount) references MainAccounts(account)
 );
 
