@@ -49,21 +49,20 @@ class Database:
 
 	def close(self):
 		try:
-			if self.__conn:
-				self.__conn.close()
+			self.__conn.close()
 		except mdb.Error,e:
 			log = Log()
 			errmsg = traceback.format_exc()
 			log.error(errmsg)
 
-	def __del__(self):
-		try:
-			if self.__conn:
-				self.__conn.close()
-		except mdb.Error,e:
-			log = Log()
-			errmsg = traceback.format_exc()
-			log.error(errmsg)
+#	def __del__(self):
+#		try:
+#			if self.__conn is not None:
+#				self.__conn.close()
+#		except mdb.Error,e:
+#			log = Log()
+#			errmsg = traceback.format_exc()
+#			log.error(errmsg)
 
 
 

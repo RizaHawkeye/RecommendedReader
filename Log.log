@@ -2698,3 +2698,1669 @@ ProgrammingError: closing a closed connection
     self.__conn.close()
 ProgrammingError: closing a closed connection
 
+2013-08-28 23:21:09,670 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return __isEqual(sql)
+NameError: global name '_MainAccount__isEqual' is not defined
+
+2013-08-28 23:21:09,670 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return __isEqual(sql)
+NameError: global name '_MainAccount__isEqual' is not defined
+
+2013-08-28 23:21:09,670 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return __isEqual(sql)
+NameError: global name '_MainAccount__isEqual' is not defined
+
+2013-08-28 23:21:09,671 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:21:09,671 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:21:09,671 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:21:09,671 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:21:09,718 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,692 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:24:11,692 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:24:11,692 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:24:11,693 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:24:11,693 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:24:11,694 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,693 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:24:11,694 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,694 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,693 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:24:11,694 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,695 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,695 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,694 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,695 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,695 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:24:11,695 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,302 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:26:25,302 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:26:25,303 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,303 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,303 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,304 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:26:25,304 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:26:25,304 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:26:25,304 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount()
+TypeError: storeAccount() takes exactly 3 arguments (1 given)
+
+2013-08-28 23:26:25,305 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,305 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,305 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,305 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:26:25,305 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,774 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:27:51,774 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 94, in getDataToSend
+    retmsg = self.checkAccount(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 52, in checkAccount
+    ret = mainAcc.verify()
+  File "/home/asus/code/RecommendedReader/account.py", line 121, in verify
+    return _isEqual(sql)
+NameError: global name '_isEqual' is not defined
+
+2013-08-28 23:27:51,775 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,775 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,775 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,776 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 127, in storeAccount
+    return _storeAccount(sql)
+NameError: global name '_storeAccount' is not defined
+
+2013-08-28 23:27:51,776 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 127, in storeAccount
+    return _storeAccount(sql)
+NameError: global name '_storeAccount' is not defined
+
+2013-08-28 23:27:51,776 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 127, in storeAccount
+    return _storeAccount(sql)
+NameError: global name '_storeAccount' is not defined
+
+2013-08-28 23:27:51,776 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 79, in getDataToSend
+    return self.register(mainAccount,mainPasswd)
+  File "/home/asus/code/RecommendedReader/server.py", line 152, in register
+    retmsg = mainAcc.storeAccount(account,passwd)
+  File "/home/asus/code/RecommendedReader/account.py", line 127, in storeAccount
+    return _storeAccount(sql)
+NameError: global name '_storeAccount' is not defined
+
+2013-08-28 23:27:51,777 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,777 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,777 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,777 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:27:51,777 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:28:32,006 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-28 23:28:39,616 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-28 23:28:47,594 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-28 23:29:02,804 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 30, in _isEqual
+    dbAccount = result[0]["account"]
+IndexError: tuple index out of range
+
+2013-08-28 23:29:02,804 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 30, in _isEqual
+    dbAccount = result[0]["account"]
+IndexError: tuple index out of range
+
+2013-08-28 23:29:02,804 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 30, in _isEqual
+    dbAccount = result[0]["account"]
+IndexError: tuple index out of range
+
+2013-08-28 23:29:02,805 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,805 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,805 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,805 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,806 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:29:02,806 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:29:02,806 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:29:02,806 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:29:02,806 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:29:02,807 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,807 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,807 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,807 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,807 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,807 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,880 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:29:02,880 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:29:02,880 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:29:02,880 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:29:02,880 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:29:02,880 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,881 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:29:02,882 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,957 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 33, in _isEqual
+    dbAccount = result[0]["account"]
+IndexError: tuple index out of range
+
+2013-08-28 23:34:08,957 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 33, in _isEqual
+    dbAccount = result[0]["account"]
+IndexError: tuple index out of range
+
+2013-08-28 23:34:08,957 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 33, in _isEqual
+    dbAccount = result[0]["account"]
+IndexError: tuple index out of range
+
+2013-08-28 23:34:08,959 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,959 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,959 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,959 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,960 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:34:08,960 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:34:08,960 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:34:08,960 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:34:08,958 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:34:08,958 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:34:08,958 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:34:08,958 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:34:08,960 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:34:08,958 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,958 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,962 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,963 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:08,965 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:34:45,572 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-28 23:35:58,977 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:35:58,977 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:35:58,977 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'reader.MainAccount' doesn't exist")
+
+2013-08-28 23:35:58,979 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 29, in _isEqual
+    print resutl
+NameError: global name 'resutl' is not defined
+
+2013-08-28 23:35:58,979 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 29, in _isEqual
+    print resutl
+NameError: global name 'resutl' is not defined
+
+2013-08-28 23:35:58,979 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 29, in _isEqual
+    print resutl
+NameError: global name 'resutl' is not defined
+
+2013-08-28 23:35:58,979 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 29, in _isEqual
+    print resutl
+NameError: global name 'resutl' is not defined
+
+2013-08-28 23:35:58,980 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,982 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,980 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,980 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,980 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,980 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,982 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,982 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,982 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,982 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,982 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,983 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,984 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:35:58,986 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,412 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 29, in _isEqual
+    print resutl
+NameError: global name 'resutl' is not defined
+
+2013-08-28 23:37:54,412 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/account.py", line 29, in _isEqual
+    print resutl
+NameError: global name 'resutl' is not defined
+
+2013-08-28 23:37:54,412 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,412 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,412 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,413 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:37:54,413 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:37:54,413 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:37:54,413 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:37:54,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,414 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,463 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:37:54,464 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:38:26,380 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-28 23:39:15,184 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1062, "Duplicate entry 'qr2434061@gmail.com' for key 'PRIMARY'")
+
+2013-08-28 23:39:15,184 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1062, "Duplicate entry 'qr2434061@gmail.com' for key 'PRIMARY'")
+
+2013-08-28 23:39:15,185 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,185 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,184 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 26, in executeWithoutQuery
+    cursor.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1062, "Duplicate entry 'qr2434061@gmail.com' for key 'PRIMARY'")
+
+2013-08-28 23:39:15,185 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,185 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,187 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:39:15,187 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:39:15,187 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:39:15,187 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:39:15,187 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:39:15,188 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,188 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,188 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,188 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,188 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,188 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,186 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,186 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,186 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,186 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,186 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,186 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:39:15,190 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,096 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,096 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,097 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,097 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,097 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:49:49,099 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:49:49,100 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,100 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,100 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,100 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,100 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:49:49,100 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:50:44,166 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,599 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,601 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:53:59,601 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:53:59,601 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:53:59,601 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:53:59,601 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-28 23:53:59,600 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,600 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,600 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,600 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,600 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,600 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,602 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,602 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,602 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,602 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,602 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-28 23:53:59,602 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/database.py", line 62, in __del__
+    self.__conn.close()
+ProgrammingError: closing a closed connection
+
+2013-08-29 00:00:45,767 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:00:45,767 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:01:20,134 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/socketServer.py", line 116, in startServer
+    sock.bind(('localhost',port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+
+2013-08-29 00:01:47,585 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:01:47,585 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:02:48,007 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:02:48,007 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:10:05,815 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:10:05,815 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 100, in getDataToSend
+    allProAcc = __getProxyAccount(db,mainAccount)
+NameError: global name '_Service__getProxyAccount' is not defined
+
+2013-08-29 00:13:59,553 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 110, in getDataToSend
+    sql = "select * from Articals where timestampUsec > '%s' order by weight limit %d,%d" % (earliestTime,begin,end)
+NameError: global name 'earliestTime' is not defined
+
+2013-08-29 00:13:59,553 - mylog - ERROR - Traceback (most recent call last):
+  File "/home/asus/code/RecommendedReader/server.py", line 110, in getDataToSend
+    sql = "select * from Articals where timestampUsec > '%s' order by weight limit %d,%d" % (earliestTime,begin,end)
+NameError: global name 'earliestTime' is not defined
+

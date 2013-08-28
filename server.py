@@ -17,7 +17,7 @@ class Service:
 	def __init__(self):
 		pass
 
-	def __getAndStoreRssData(self,account,passwd):
+	def _getAndStoreRssData(self,account,passwd):
 		rss = theoldreaderRss.TheoldreaderRss()
 		account = "qr2434061@gmail.com"
 		password = "theoldreader789456"
@@ -25,7 +25,7 @@ class Service:
 			rss.getAllUnreadContentFromWeb()
 
 
-	def __getProxyAccount(self,db,mainAccount):
+	def _getProxyAccount(self,db,mainAccount):
 		sql = "select distinct website from ProxyAccounts where mainAccount='%s'" % mainAccount
 		resWebsites = db.query(sql)
 
@@ -40,7 +40,7 @@ class Service:
 		return allProAcc
 
 
-	def __processWithML(self):
+	def _processWithML(self):
 		#TODO:
 		pass
 	
@@ -86,7 +86,7 @@ class Service:
 
 
 			#actionType = 'GET'
-			earliest = args[1]
+			earliestTime = args[1]
 			order = args[2]
 			mainAccount = args[3]
 			mainPasswd = args[4]
@@ -97,10 +97,10 @@ class Service:
 				return msg
 
 
-			allProAcc = __getProxyAccount(db,mainAccount)
+			allProAcc = self._getProxyAccount(db,mainAccount)
 			for (rssAccount,rssPasswd) in allProAcc:
-				__storeRssData(rssAccount,rssPasswd)
-				__processWithML()
+				_storeRssData(rssAccount,rssPasswd)
+				self._processWithML()
 
 
 			begin = (int(order) - 1) * ITEM_NUMBER_RETURN
@@ -149,17 +149,28 @@ class Service:
 
 	def register(self,account,passwd):
 		mainAcc = acc.MainAccount(account,passwd)
-		retmsg = mainAcc.storeAccount()
-		if retmsg is not None:
-			err = {}
-			err["error"] = retmsg
-			errmsg = json.dumps(err)
-			return errmsg
+		msg = {}
+		msg["type"] = "REG"
+	
+		if mainAcc.isExist(account) == True:
+			msg["status"] = "ERROR"
+			errmsg = str(account) + " is exist"
+			msg["errmsg"] = errmsg
+			info = json.dumps(msg)
+			return info
+
 		else:
-			ok = {}
-			ok["ok"] = "ok"
-			msg = json.dumps(ok)
-			return msg
+			retmsg = mainAcc.storeAccount(account,passwd)
+
+			if retmsg is not None:
+				msg["status"] = "ERROR"
+				msg["error"] = retmsg
+				errmsg = json.dumps(err)
+				return errmsg
+			else:
+				msg["status"] = "OK"
+				msg = json.dumps(ok)
+				return msg
 			
 	def updateProAccount(self,mainAccount,website,proAccount,proPasswd):
 		'''
