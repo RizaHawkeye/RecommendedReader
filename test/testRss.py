@@ -1,8 +1,7 @@
 import json,httplib
 
 host = "theoldreader.com"
-account = "qr2434061@gmail.com"
-password = "theoldreader789456"
+
 conn = httplib.HTTPConnection(host,80)
 
 conn.connect()
